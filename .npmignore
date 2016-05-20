@@ -1,0 +1,5 @@
+test
+.mversionrc
+.eslintrc
+.travis.yml
+*.log*
