@@ -1,7 +1,8 @@
 'use strict';
 
-let md = require('habitica-markdown');
+let MarkdownIt = require('markdown-it');
 let habiticaMarkdownEmojiPlugin = require('../');
+let md = new MarkdownIt();
 
 md.use(habiticaMarkdownEmojiPlugin);
 
