@@ -30,4 +30,10 @@ describe('habitica-markdown-emoji', () => {
 
     expect(result).to.contain('text :gun: text :bomb: text');
   });
+
+  it('renders melchior emoji', function () {
+    let result = md.render('foo :melchior: bar');
+
+    expect(result).to.contain('foo <img class="habitica-emoji" style="height: 1.5em; width: 1.5em" src="https://s3.amazonaws.com/habitica-assets/cdn/emoji/melchior.png" alt="melchior"> bar');
+  });
 });
