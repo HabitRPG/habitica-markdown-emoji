@@ -3,7 +3,6 @@
 var markdownitEmoji = require('markdown-it-emoji');
 
 var parseEmoji = require('./lib/parse-emoji');
-var isBlacklistedEmoji = require('./lib/is-blacklisted-emoji');
 // var shortcuts = require('./lib/shortcuts');
 var customEmojis = require('./lib/custom-emojis');
 
@@ -20,10 +19,6 @@ function emojiPlugin (md) {
     var emoji = token[idx].markup;
 
     emoji = parseEmoji(emoji);
-
-    if (isBlacklistedEmoji(emoji)) {
-      return ':' + emoji + ':';
-    }
 
     src = 'https://s3.amazonaws.com/habitica-assets/cdn/emoji/' + emoji + '.png';
     style = 'height: 1.5em; width: 1.5em';
