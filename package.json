@@ -1,6 +1,6 @@
 {
   "name": "habitica-markdown-emoji",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Emoji set for Habitica.",
   "main": "index.js",
   "scripts": {
