@@ -11,6 +11,7 @@ function emojiPlugin (md) {
   md.use(markdownitEmoji, {
     defs: customEmojis,
     // shortcuts: shortcuts,
+    shortcuts: {},
   });
 
   md.renderer.rules.emoji = function markdownEmojiRules (token, idx) {
