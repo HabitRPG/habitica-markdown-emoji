@@ -28,7 +28,7 @@
     "eslint-config-habitrpg": "^1.1.0",
     "eslint-plugin-mocha": "^2.2.0",
     "markdown-it": "^6.0.0",
-    "mocha": "^2.4.5"
+    "mocha": "^3.0.1"
   },
   "dependencies": {
     "markdown-it-emoji": "^1.1.1"
