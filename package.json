@@ -24,7 +24,7 @@
   "homepage": "https://github.com/HabitRPG/habitica-markdown-emoji#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "~2.12.0",
+    "eslint": "~3.14.0",
     "eslint-config-habitrpg": "^1.1.0",
     "eslint-plugin-mocha": "^2.2.0",
     "markdown-it": "^8.0.0",
